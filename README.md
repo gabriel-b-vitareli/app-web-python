@@ -9,3 +9,16 @@ Com o endereço 10.87.47.79 (Rede) há um aviso de segurança pois o protocolo n
 <img width="889" height="357" alt="image" src="https://github.com/user-attachments/assets/2636cae1-ccde-4450-a254-b37d8bdb8b00" />
 <img width="1465" height="815" alt="image" src="https://github.com/user-attachments/assets/122c95e3-409b-4e24-a89a-a427361baf0f" />
 
+## Conectando o VSCode pelo SSH:
+
+1. Instalar a extensão RemoteSSH
+2. Abrir a paleta de comandos (CTRL + Shift + P)
+3. Selecionar a opção do Remote SSH (Add new SSH host). OBS: O ssh precisa estar rodando também na máquina em que queremos nos conectar
+<img width="910" height="96" alt="image" src="https://github.com/user-attachments/assets/dd2a1c23-d501-4866-a4ea-98ea0be800f7" />
+4. Inserir o comando do ssh -p nome do usuário e o @IP
+<img width="916" height="165" alt="image" src="https://github.com/user-attachments/assets/a5039173-9e1e-4580-ad17-5fcccc6fd6e7" />
+<img width="900" height="125" alt="image" src="https://github.com/user-attachments/assets/16eb4a4c-aca1-406b-b302-02c93873ada2" />
+5. Clicar em Connect
+<img width="343" height="59" alt="image" src="https://github.com/user-attachments/assets/8799b462-388e-49cf-94d2-ce9d3fd6960b" />
+6. Digitar a senha da máquina que estamos tentando nos conectar
+7. Pronto, agora o VSCode abrirá uma nova janela que está "localizada" na máquina que nos conectamos (Nesse caso, nosso Ubuntu)
