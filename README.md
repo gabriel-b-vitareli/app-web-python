@@ -1,3 +1,6 @@
+# Relatório das Atividades de ARI
+
+## Segurança no navegador:
 <img width="771" height="210" alt="image" src="https://github.com/user-attachments/assets/cedd9085-8789-4c3d-8c75-4783f7c6f8a9" />
 Com o endereço 127.0.0.1 (Local), não há avisos de seguraça pois o código é rodado no próprio computador
 <img width="771" height="210" alt="image" src="https://github.com/user-attachments/assets/8a43a02b-e26f-4384-b3fe-59755e78eab1" />
