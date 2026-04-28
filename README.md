@@ -129,3 +129,23 @@ ssh -p 2222 usuario@127.0.0.1
 Com o Remote SSH ativo, é possível navegar, criar, editar e remover arquivos da VM diretamente pelo VSCode, como se fosse um ambiente local.
 
 <img width="1919" height="1009" alt="Gerenciando arquivos da VM pelo VSCode" src="https://github.com/user-attachments/assets/f2f2fbe2-c775-4ce6-b97e-1e9dca8aca75" />
+
+## 8. Site com Sistema de Login
+ 
+Outra atividade que realizamos durante as aulas foi um site com sistema de login, utilizando Python (Com o Flask), HTML e CSS
+ 
+### Sobre o projeto
+ 
+O site foi construído com **Python + Flask** e é composto por três arquivos principais:
+ 
+- **`app.py`** — servidor Flask que define duas rotas: a página inicial (`/`) e o endpoint de login (`/login`). Ao receber o formulário via `POST`, o servidor valida o usuário e a senha e retorna "Acesso Liberado" ou "Acesso Negado" conforme as credenciais. O servidor sobe na porta `8000` escutando em `0.0.0.0`, tornando-o acessível tanto localmente quanto pela rede.
+- **`templates/index.html`** — página com um formulário de login contendo campos de usuário e senha, que envia os dados para a rota `/login` via `POST`.
+- **`static/style.css`** — estilização da página, com fundo animado, campos com transparência e layout centralizado.
+### Repositório
+ 
+> 🔗 [Link do repositório no GitHub](https://github.com/gabriel-b-vitareli/sistema-login)
+ 
+### Demonstração
+
+<img width="1919" height="843" alt="image" src="https://github.com/user-attachments/assets/90cdda46-0874-4247-a07b-b3a98452df19" />
+
